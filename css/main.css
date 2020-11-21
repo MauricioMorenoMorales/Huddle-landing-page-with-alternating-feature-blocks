@@ -20,6 +20,11 @@ figure {
   margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -39,6 +44,39 @@ header button {
   background-color: #ffe;
   width: 100px;
   height: 25px;
+  font-weight: 700;
   border-radius: 30px;
   box-shadow: 2px 2px 4px 2px #00000026;
+}
+
+.hero {
+  padding: 0 5%;
+  text-align: center;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/bg-hero-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+.hero article {
+  padding: 0 9%;
+}
+.hero article button {
+  height: 40px;
+  width: 80%;
+  border-radius: 40px;
+  border: none;
+  font-weight: 700;
+  background-color: #ff52bf;
+  color: #ffe;
+}
+.hero figure {
+  width: 100vw;
+  margin-top: 60px;
+}
+.hero figure img {
+  width: 80%;
 }
