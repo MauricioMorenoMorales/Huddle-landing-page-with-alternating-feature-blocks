@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+  box-sizing: inhereit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #ebfbff;
+  font-size: 1.8rem;
+}
+
+figure {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 5%;
+}
+header figure {
+  height: 30%;
+}
+header figure img {
+  height: 100%;
+  width: auto;
+}
+header button {
+  border: none;
+  background-color: #ffe;
+  width: 100px;
+  height: 25px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 4px 2px #00000026;
+}

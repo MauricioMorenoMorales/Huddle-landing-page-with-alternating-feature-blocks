@@ -1,1 +1,38 @@
 @import './_tokens.sass'
+
+html
+	box-sizing: border-box
+	font-family: $font-family-main
+	font-size: 62.5%
+	scroll-behavior: smooth
+
+*,*:before,*:after
+	box-sizing: inhereit
+
+body
+	margin: 0
+	overflow-x: hidden
+	background-color: $very-pale-cyan
+	font-size: $font-size-normal
+
+figure
+	margin: 0
+
+header
+	display: flex
+	justify-content: space-between
+	align-items: center
+	height: 60px
+	padding: $mobile-container-padding
+	figure
+		height: 30%
+		img
+			height: 100%
+			width: auto
+	button
+		border: none
+		background-color: $white
+		width: 100px
+		height: 25px
+		border-radius: 30px
+		box-shadow: $box-shadow
