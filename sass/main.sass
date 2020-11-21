@@ -12,7 +12,6 @@ html
 body
 	margin: 0
 	overflow-x: hidden
-	background-color: $very-pale-cyan
 	font-size: $font-size-normal
 
 figure
@@ -27,6 +26,7 @@ header
 	justify-content: space-between
 	align-items: center
 	height: 60px
+	background-color: $very-pale-cyan
 	padding: $mobile-container-padding
 	figure
 		height: 30%
@@ -40,7 +40,7 @@ header
 		height: 25px
 		font-weight: $font-weight-bold
 		border-radius: 30px
-		box-shadow: $box-shadow
+		box-shadow: $box-shadow-strong
 
 .hero
 	padding: $mobile-container-padding
@@ -48,11 +48,13 @@ header
 	padding-top: 40px
 	display: flex
 	flex-direction: column
+	background-color: $very-pale-cyan
 	align-items: center
 	background-image: url('../images/bg-hero-mobile.svg')
 	background-repeat: no-repeat
 	background-size: 100% auto
 	background-position: center
+	margin-bottom: 100px
 	article
 		padding: 0 9%
 		button
@@ -66,5 +68,30 @@ header
 	figure
 		width: 100vw
 		margin-top: 60px
+		margin-bottom: 30px
 		img
 			width: 80%
+
+.cards
+	padding: $mobile-container-padding
+	.card
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		box-shadow: $box-shadow-light
+		border-radius: 20px
+		margin-bottom: 30px
+		padding: $card-padding
+		text-align: center
+		figure
+			width: 100%
+			img
+				width: 80%
+				height: auto
+		article
+			p
+				color: $gray
+			h3
+				font-size: 1.9rem
+				margin-bottom: 0
