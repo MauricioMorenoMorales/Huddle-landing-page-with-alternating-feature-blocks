@@ -112,3 +112,33 @@ header button {
   font-size: 1.9rem;
   margin-bottom: 0;
 }
+
+.floating-card {
+  padding: 0 5%;
+}
+.floating-card .card {
+  position: relative;
+  top: 100px;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffe;
+  margin: auto;
+  border-radius: 20px;
+}
+.floating-card .card button {
+  height: 40px;
+  width: 70%;
+  border-radius: 25px;
+  border: none;
+  background-color: #ff52bf;
+  color: white;
+}
+
+footer {
+  background-color: #00252e;
+  color: #ffe;
+  padding-top: 110px;
+}
