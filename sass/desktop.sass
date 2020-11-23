@@ -1,0 +1,52 @@
+@import './_tokens'
+@media screen and (min-width: 900px)
+	header
+		height: 100px
+		button
+			width: 240px
+			height: 45px
+
+	.hero
+		flex-direction: row
+		height: calc(100vh - 100px)
+		max-height: 1000px
+		background-image: url('../images/bg-hero-desktop.svg')
+		background-size: calc( 100vh - 100px )
+		article
+			padding: 0
+			text-align: start
+			padding-right: 30px
+			h1
+				font-size: 3.5rem
+			p
+				line-height: 30px
+		figure
+			margin: 0
+			width: 50vw
+			img
+				width: 50vw
+	.cards
+		.card
+			flex-direction: row
+			text-align: start
+			&:nth-child(1)
+				flex-direction: row-reverse
+			&:nth-child(3)
+				flex-direction: row-reverse
+
+	footer
+		.logo-container
+			margin-left: 7%
+		.content
+			flex-direction: row
+			justify-content: space-around
+			padding-right: 15%
+			.contact
+				&__location
+					p
+						width: 20vw
+						max-width: 500px
+		.copyright
+			p
+				width: 90vw
+				text-align: end
