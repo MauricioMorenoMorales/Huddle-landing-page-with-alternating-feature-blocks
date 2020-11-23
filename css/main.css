@@ -140,5 +140,92 @@ header button {
 footer {
   background-color: #00252e;
   color: #ffe;
-  padding-top: 110px;
+  padding-top: 180px;
+}
+footer .content {
+  display: flex;
+  flex-direction: column;
+}
+footer .content .contact__location {
+  display: flex;
+}
+footer .content .contact__location img {
+  margin: 25px 20px 0px;
+  width: 20px;
+  height: 20px;
+}
+footer .content .contact__location p {
+  width: 250px;
+}
+footer .content .contact__phone {
+  display: flex;
+}
+footer .content .contact__phone img {
+  margin: 25px 20px 0px;
+  width: 20px;
+  height: 20px;
+}
+footer .content .contact__phone p {
+  width: 250px;
+}
+footer .content .contact__email {
+  display: flex;
+}
+footer .content .contact__email img {
+  margin: 25px 20px 0px;
+  width: 20px;
+  height: 20px;
+}
+footer .content .contact__email p {
+  width: 250px;
+}
+footer .content .about-us {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+footer .content .about-us a {
+  text-decoration: none;
+  color: #ffe;
+  line-height: 50px;
+}
+footer .content .career {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+footer .content .career a {
+  text-decoration: none;
+  color: #ffe;
+  line-height: 50px;
+}
+footer .content .social {
+  display: flex;
+  justify-content: center;
+}
+footer .content .social a {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #ffe;
+  border-radius: 50%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .content .social a img {
+  width: 60%;
+}
+
+.copyright {
+  background-color: #00252e;
+  height: 100px;
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+}
+.copyright p {
+  margin: 0;
+  font-size: 1.5rem;
 }
