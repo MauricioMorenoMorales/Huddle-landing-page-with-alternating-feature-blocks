@@ -9,6 +9,10 @@ html {
   box-sizing: inhereit;
 }
 
+*:focus {
+  outline: 4px dotted #ff52bf;
+}
+
 body {
   margin: 0;
   overflow-x: hidden;
