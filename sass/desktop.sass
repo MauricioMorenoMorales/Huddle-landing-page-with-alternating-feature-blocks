@@ -1,5 +1,8 @@
 @import './_tokens'
 @media screen and (min-width: 900px)
+	main
+		max-width: 2000px
+		margin: 0 auto
 	header
 		height: 100px
 		button
@@ -25,6 +28,7 @@
 			width: 50vw
 			img
 				width: 50vw
+				max-width: 1000px
 	.cards
 		.card
 			flex-direction: row
@@ -50,3 +54,9 @@
 			p
 				width: 90vw
 				text-align: end
+
+@media screen and (min-width: 2000px)
+	header
+		box-shadow: $box-shadow-strong
+	.hero
+		background: none

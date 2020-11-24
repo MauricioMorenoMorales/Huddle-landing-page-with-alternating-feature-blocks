@@ -1,4 +1,9 @@
 @media screen and (min-width: 900px) {
+  main {
+    max-width: 2000px;
+    margin: 0 auto;
+  }
+
   header {
     height: 100px;
   }
@@ -31,6 +36,7 @@
   }
   .hero figure img {
     width: 50vw;
+    max-width: 1000px;
   }
 
   .cards .card {
@@ -59,5 +65,14 @@
   footer .copyright p {
     width: 90vw;
     text-align: end;
+  }
+}
+@media screen and (min-width: 2000px) {
+  header {
+    box-shadow: 2px 2px 3px 2px #00000026;
+  }
+
+  .hero {
+    background: none;
   }
 }

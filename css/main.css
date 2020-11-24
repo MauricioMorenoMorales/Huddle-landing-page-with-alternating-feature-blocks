@@ -47,6 +47,13 @@ header button {
   font-weight: 700;
   border-radius: 30px;
   box-shadow: 2px 2px 3px 2px #00000026;
+  transition: 0.2s;
+  cursor: pointer;
+}
+header button:hover {
+  transform: scale(0.9);
+  background-color: #ff52bf;
+  color: #ffe;
 }
 
 .hero {
@@ -74,6 +81,13 @@ header button {
   font-weight: 700;
   background-color: #ff52bf;
   color: #ffe;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.hero article button:hover {
+  transform: scale(0.9);
+  background-color: #ebfbff;
+  color: #ff52bf;
 }
 .hero figure {
   width: 100vw;
@@ -139,6 +153,13 @@ header button {
   border: none;
   background-color: #ff52bf;
   color: white;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.floating-card .card button:hover {
+  transform: scale(0.9);
+  background-color: #ffe;
+  color: #ff52bf;
 }
 
 footer {
@@ -196,6 +217,10 @@ footer .content .about-us a {
   text-decoration: none;
   color: #ffe;
   line-height: 50px;
+  transition: 0.2s;
+}
+footer .content .about-us a:hover {
+  color: #ff52bf;
 }
 footer .content .career {
   display: flex;
@@ -207,6 +232,10 @@ footer .content .career a {
   text-decoration: none;
   color: #ffe;
   line-height: 50px;
+  transition: 0.2s;
+}
+footer .content .career a:hover {
+  color: #ff52bf;
 }
 footer .content .social {
   display: flex;
@@ -221,6 +250,10 @@ footer .content .social a {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.2s;
+}
+footer .content .social a:hover {
+  background-color: #ff52bf;
 }
 footer .content .social a img {
   width: 60%;

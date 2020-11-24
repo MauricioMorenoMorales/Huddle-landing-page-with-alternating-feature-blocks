@@ -21,6 +21,7 @@ h1,h2,h3,h4,h5,h6
 	font-family: $font-family-headings
 	font-weight: $font-weight-heading
 
+
 header
 	display: flex
 	justify-content: space-between
@@ -41,6 +42,12 @@ header
 		font-weight: $font-weight-bold
 		border-radius: 30px
 		box-shadow: $box-shadow-strong
+		transition: .2s
+		cursor: pointer
+		&:hover
+			transform: scale(.9)
+			background-color: $pink
+			color: $white
 
 .hero
 	padding: $mobile-container-padding
@@ -65,6 +72,12 @@ header
 			font-weight: $font-weight-bold
 			background-color: $pink
 			color: $white
+			transition: .2s
+			cursor: pointer
+			&:hover
+				transform: scale(.9)
+				background-color: $very-pale-cyan
+				color: $pink
 	figure
 		width: 100vw
 		margin-top: 60px
@@ -120,6 +133,12 @@ header
 			border: none
 			background-color: $pink
 			color: white
+			transition: .2s
+			cursor: pointer
+			&:hover
+				transform: scale(.9)
+				background-color: $white
+				color: $pink
 
 footer
 	background-color: $very-dark-cyan
@@ -164,6 +183,9 @@ footer
 				text-decoration: none
 				color: $white
 				line-height: 50px
+				transition: .2s
+				&:hover
+					color: $pink
 		.career
 			display: flex
 			flex-direction: column
@@ -173,6 +195,9 @@ footer
 				text-decoration: none
 				color: $white
 				line-height: 50px
+				transition: .2s
+				&:hover
+					color: $pink
 		.social
 			display: flex
 			justify-content: center
@@ -185,6 +210,9 @@ footer
 				display: flex
 				justify-content: center
 				align-items: center
+				transition: .2s
+				&:hover
+					background-color: $pink
 				img
 					width: 60%
 
